@@ -1,0 +1,126 @@
+*{
+  font-family: Verdana;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 2px;
+  transition: 1s;
+}
+input:focus {
+  border: 1px solid #ccc;
+}
+
+body{
+  background: aliceblue;
+  padding: 20px;
+}
+.hidden{
+  display: none;
+  visibility: hidden;
+}
+.pa{
+  padding: 5px;
+}
+
+.container{
+  max-width: 400px;
+  padding: 15px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 5%;
+}
+
+.title{
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+#form{
+  width: 100%;
+}
+
+.f{
+  width: 100%;
+  display: flex;
+}
+
+.alert{
+  font-size: 0.8rem;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#text{
+  padding: 5px;
+  flex: 1;
+  border: solid rgba(0, 0, 0, 0.2) 1px;
+}
+
+
+.submitbtn{
+  padding: 10px;
+  margin-left: -10px;
+  background-color:aqua;
+  border: none;
+  border-bottom-right-radius: 10px;
+}
+
+.btn:hover{
+  background-color: azure;
+}
+
+.itemcon{
+  width: 100%;
+}
+
+.item{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+
+.it{
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.edit,.delete{
+  padding: 3px 5px;
+  text-transform: capitalize;
+  color: white;
+  border: none;
+  border-radius: 10%;
+  font-size: 12px;
+}
+.edit:hover{
+  background: darkgreen;
+}
+
+.delete:hover{
+  background: darkred;
+}
+
+.edit{
+  background: green;
+}
+
+.delete{
+  background: red;
+}
+
+.clear{
+  background: none;
+  border: none;
+  text-transform: capitalize;
+  color: red;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.clear:hover{
+  text-decoration: underline;
+}
